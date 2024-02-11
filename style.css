@@ -1,0 +1,63 @@
+#top				{
+    text-align:center;
+    font-size: 10px;
+                         color:gray;
+                         text-align:center;
+                         background-color: #008080;
+                         width: 100%;
+                         overflow:  hidden;
+                         padding: 1px 0;
+                         border-bottom: #eee;}
+    #top h1 {
+                     font-style:italic;
+                     color:black;
+                     text-align:center;}
+             
+             #topnav 			{ clear:both; background-color:#333;  }
+             #topnav ul			{ width:100%; float:left; margin:0px 0;	background-color:#333; border-bottom:3px #ccc solid; }
+             #topnav ul li		{ display:inline;	}
+             #topnav ul li a		{ float:left; padding:10px 10px; }
+             #topnav a:link		{ color:#fff;	}
+             #topnav a:visited	{ color:#fff;	}
+             #topnav a:active	{ color:#fff;	}
+             #topnav a:hover		{ color:#fff; background-color:#900;	}
+             #topnav a:focus		{ color:#fff;	}
+            
+                         
+             
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .btn {
+    background-color: slateblue;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
